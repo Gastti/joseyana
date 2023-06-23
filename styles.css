@@ -70,6 +70,10 @@ body {
   color: #586e34;
 }
 
+.date > p > span {
+  font-size: 2rem;
+}
+
 .date > img {
   width: 100px;
 }
