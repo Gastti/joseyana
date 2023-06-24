@@ -11,6 +11,7 @@
 }
 
 .countdown-container {
+    margin-top: 20px;
     border-radius: 45px;
     text-shadow: 0px 0px 30px rgb(0, 0, 0, 0.2);
 }
