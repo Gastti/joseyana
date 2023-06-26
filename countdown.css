@@ -1,12 +1,9 @@
 .countdown-container {
-<<<<<<< HEAD
   background-color: transparent;
   padding: 5px 0px;
   border-radius: 3px;
   color: #935e43;
   position: relative;
-=======
->>>>>>> f40d5b5c92e62a7396ce55f55af1bdc6329626b2
 }
 
 /* .countdown-container::after {
@@ -45,7 +42,7 @@
 }
 
 .simply-section {
-    padding: 5px 10px;
+  padding: 5px 10px;
   /* margin: 0px 10px; */
   /* width: 50px;
   border-radius: 50%;
@@ -57,7 +54,7 @@
 }
 
 .simply-section:not(:first-child) {
-    border-left: 2px solid #935e43;
+  border-left: 2px solid #935e43;
 }
 
 .simply-section > div {
