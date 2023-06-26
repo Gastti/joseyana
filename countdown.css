@@ -1,9 +1,12 @@
 .countdown-container {
+<<<<<<< HEAD
   background-color: transparent;
   padding: 5px 0px;
   border-radius: 3px;
   color: #935e43;
   position: relative;
+=======
+>>>>>>> f40d5b5c92e62a7396ce55f55af1bdc6329626b2
 }
 
 /* .countdown-container::after {
