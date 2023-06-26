@@ -60,12 +60,17 @@ body {
   font-family: "Playfair", serif;
   font-size: 1.5rem;
   font-style: normal;
+  line-height: 2rem;
   color: #586e34;
 }
 
+.names > img {
+  width: 200px;
+  margin-top: -5px;
+}
+
 .date {
-  font-family: "Playfair", serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 600;
   color: #586e34;
 }
@@ -285,4 +290,9 @@ body {
   text-decoration: none;
   font-style: italic;
   font-size: 0.8rem;
+}
+
+.message > p {
+  font-weight: 500;
+  font-size: 1.2rem;
 }

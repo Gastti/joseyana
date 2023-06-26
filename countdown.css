@@ -1,28 +1,79 @@
-#countdown {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 5px;
-    font-style: italic;
-}
-
-#countdown>span {
-    margin-right: 15px;
-}
-
 .countdown-container {
-    border-radius: 45px;
-    text-shadow: 0px 0px 30px rgb(0, 0, 0, 0.2);
+  background-color: transparent;
+  padding: 5px 0px;
+  border-radius: 3px;
+  color: #935e43;
+  position: relative;
 }
 
-.simply-section {}
+/* .countdown-container::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  border-top: 2px solid #935e43;
+  border-left: 2px solid #935e43;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+}
 
-.simply-section>div {}
+.countdown-container::before {
+  content: "";
+  width: 40px;
+  height: 30px;
+  border-bottom: 2px solid #935e43;
+  border-right: 2px solid #935e43;
+  position: absolute;
+  bottom: -5px;
+  right: 0px;
+} */
+
+#countdown {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 5px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+#countdown > span {
+  margin-right: 5px;
+}
+
+.simply-section {
+    padding: 5px 10px;
+  /* margin: 0px 10px; */
+  /* width: 50px;
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  border: 2px solid #935e43;
+  display: flex;
+  place-content: center;
+  box-sizing: content-box; */
+}
+
+.simply-section:not(:first-child) {
+    border-left: 2px solid #935e43;
+}
+
+.simply-section > div {
+  display: flex;
+  flex-direction: column;
+}
 
 .simply-amount {
-    font-size: 2rem;
+  font-weight: 500;
+  margin-top: 3px;
 }
 
-.simply-days-section>div>span:nth-child(2) {
-    margin: 0px 15px;
+.simply-word {
+  font-size: 1rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.countended {
+  font-size: 2rem;
+  font-weight: 700;
 }

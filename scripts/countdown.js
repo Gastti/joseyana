@@ -7,9 +7,9 @@ simplyCountdown('#countdown', {
     seconds: 0, // Default is 0 [0-59] integer
     words: { //words displayed into the countdown
         days: { singular: 'Día', plural: 'Días' },
-        hours: { singular: ':', plural: ':' },
-        minutes: { singular: ':', plural: ':' },
-        seconds: { singular: '', plural: '' }
+        hours: { singular: 'Hrs', plural: 'Hrs' },
+        minutes: { singular: 'Min', plural: 'Min' },
+        seconds: { singular: 'Seg', plural: 'Seg' }
     },
     plural: true, //use plurals
     inline: false, //set to true to get an inline basic countdown like : 24 days, 4 hours, 2 minutes, 5 seconds
@@ -22,6 +22,7 @@ simplyCountdown('#countdown', {
         countdownContainer.innerHTML = '';
         dateContainer.innerHTML = '';
         countdownContainer.textContent = '¡Es Hoy!'
+        countdownContainer.innerHTML = '<span class="countended">¡Es Hoy!</span>'
      }, //Callback on countdown end, put your own function here
     refresh: 1000, // default refresh every 1s
     sectionClass: 'simply-section', //section css class
